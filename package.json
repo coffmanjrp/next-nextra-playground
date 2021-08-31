@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,6 +13,8 @@
     "nextra": "^1.1.0",
     "nextra-theme-blog": "^0.1.6",
     "nextra-theme-docs": "^1.2.6",
+    "nextra-theme-docs-mine": "^1.1.5",
+    "nextra-theme-mui-docs": "^0.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },

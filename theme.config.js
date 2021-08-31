@@ -1,7 +1,7 @@
 const theme = {
   github: 'https://github.com/coffmanjrp/next-nextra-playground',
   docsRepositoryBase:
-    'https://github.com/coffmanjrp/next-nextra-playground/blob/master',
+    'https://github.com/coffmanjrp/next-nextra-playground/blob/master/pages',
   titleSuffix: ' – Nextra',
   nextLinks: true,
   prevLinks: true,
@@ -11,9 +11,10 @@ const theme = {
   footer: true,
   footerText: `MIT ${new Date().getFullYear()} © coffmanjrp.`,
   footerEditLink: `Edit this page on GitHub`,
+  floatTOC: true,
+  unstable_stork: true,
   logo: (
     <>
-      <svg>...</svg>
       <span>Next.js Static Site Generator</span>
     </>
   ),
